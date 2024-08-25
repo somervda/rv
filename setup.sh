@@ -26,6 +26,7 @@ sudo apt install -y python-dev-is-python3
 python --version
 
 # Remove swap file support - should make the sd card last longer
+# https://raspberry.piaustralia.com.au/blogs/news/how-to-disable-swap-on-raspberry-pi-os-and-use-a-usb-drive-instead
 sudo dphys-swapfile swapoff
 sudo dphys-swapfile uninstall
 sudo update-rc.d dphys-swapfile remove
